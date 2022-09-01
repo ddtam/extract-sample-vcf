@@ -2,5 +2,5 @@
 #
 #SBATCH --partition=defq
 
-nextflow build-sample-vcf.nf -c build-sample-vcf.config
+srun nextflow build-sample-vcf.nf -c build-sample-vcf.config
 
