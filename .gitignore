@@ -3,3 +3,6 @@ work
 reports
 .nextflow*
 
+# SLURM
+slurm-*.out
+

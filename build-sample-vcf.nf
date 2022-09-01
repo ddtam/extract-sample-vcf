@@ -14,7 +14,7 @@ sample_ids =
     Channel
         .fromPath(params.sample_annotation)
         .splitCsv(header: true, sep: '\t')
-        .map { row -> row.'Sample name' }  // pull out column as value
+        .map { row -> row.'Sample ID' }  // pull out column as value
 
 vcfs = 
     Channel
