@@ -1,7 +1,7 @@
 
 # VCF Collation Workflow
 
-This repository contains a Nextflow workflow that produces a single VCF file for each sample ID that has VCF annotations split across multiple single chromosome VCF files.
+This repository contains a Nextflow workflow that produces a single VCF file for a sample that has VCF annotations split across multiple single-chromosome VCF files.
 
 ## Inputs
 
@@ -17,7 +17,7 @@ The workflow requires the following inputs:
 
 ## Execution
 
-The workflow is written in Nextflow. A SLURM submission script is written at `submit_nf.sh` and can be scheduled using
+The workflow is written in Nextflow. A SLURM submission script with the necessary parameters is written at `submit_nf.sh` and can be scheduled using
 
 ```
 sbatch ./submit_nf.sh
